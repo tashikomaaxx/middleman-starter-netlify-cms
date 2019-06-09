@@ -29,7 +29,7 @@ const ProductPreview = ({ entry, widgetFor }) => {
       <div className="content">
         <div className="meta">
           <h1>{data.title}</h1>
-          <div className="weight">
+          <div className="longeur">
             <span>{`${data.longeur}m`}</span>
           </div>
           <div className="price">

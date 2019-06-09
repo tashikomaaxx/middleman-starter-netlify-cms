@@ -4,9 +4,9 @@
     .meta
       h1 = product.title
 
-      .weight
-        - weight = data.settings.units.weight || 'kg'
-        span = product.weight.to_s + weight
+      .longeur
+        - longeur = data.settings.units.weight || 'kg'
+        span = product.longeur.to_s + longeur
 
       .price
         - currency = data.settings.units.currency || '€' 
