@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: tashikomaaxx/middleman-starter-netlify-cms
+
+
 
 media_folder: source/images/uploads
 public_folder: /images/uploads
